@@ -1,7 +1,10 @@
 Package: ETpartitioning
 Title: Partitioning of eddy covariance ET into flux components 
 Version: 0.0.0.9000
-Authors@R: person("Oscar", "Perez-Priego", email = "opriego@ugr.es", role = c("aut", "cre"))
+Authors@R: 
+     c( person("Oscar", "Perez-Priego", email = "opriego@ugr.es", role = c("aut", "cre"))
+    , person("Thomas", "Wutzler", email = "twutz@bgc-jena.mpg.de", role = c("aut"))
+    )
 Description: ETpartitioning package includes a novel approach for i) eddy covariance ET partitioning and ii) deriving compelling plant functional traits. The method employs a number of physiological arguments of plant optimization and eddy covariance data for partitioning ET. Short-term responses of canopy-scale “internal” leaf-to-ambient CO2 (χ) are predicted based on a big-leaf representation of the canopy and accounting for the influence of boundary-layer conductance. This representation allows inferring stomatal behavior in accordance with the photosynthesis (Ph) estimates. A multi-constraint Markov Chain Monte Carlo (MCMC) algorithm is implemented to derive optimal parameters that minimize the carbon cost of transpiration. The resulting optimal stomatal conductance model is then proposed as the basis to derive transpiration estimates. The evaporation (Es) is finally calculated as a residual between the observed ET and modeled T.
 Depends: R (>= 3.3)
 Imports: FME
