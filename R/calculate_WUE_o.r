@@ -9,7 +9,7 @@
 #'
 #' @param data      Data.frame or matrix containing all required variables.
 #' @param ColPhotos column name of numeric vector containing time series of photosynthesis data (umol CO2 m-2 s-1)
-#' @param ColVPD    column name of numeric vector containing time series of vapor pressure deficit (kPa).
+#' @param ColVPD    column name of numeric vector containing time series of vapor pressure deficit (hPa).
 #' @param ColTair   column name of numeric vector containing time series of air temperature (deg C).
 #' @param Z         Z- numeric value defining elevation (km).
 #' @param C         Empirical coeficient for C3 species.
